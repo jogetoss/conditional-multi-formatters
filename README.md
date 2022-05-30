@@ -1,6 +1,14 @@
 # Description
 
-This repository is meant to serve as a general template for how to set up new repositories in the JogetOSS organization. 
+Conditionally executes selected formatter(s) based on condition.
+
+For example, in condition, we can write
+
+<pre>
+{status} == "Approved"
+</pre>
+
+to check againsts a row field "status" value. If it matches, the formatter configured will be executed.
 
 # Getting Help
 
